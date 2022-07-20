@@ -1,0 +1,16 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+.Header-title{
+    color: var(--title-color);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header {
+        margin: 10px 0;
+    }
+}

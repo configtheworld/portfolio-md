@@ -1,0 +1,15 @@
+.MarkdownCanvas{
+  width: 60%;
+  background-color: var(--background-canvas-color);
+  padding: 3% 5%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .MarkdownCanvas {
+        width: 85%;
+    }
+}
